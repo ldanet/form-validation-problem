@@ -1,0 +1,21 @@
+{
+  "name": "form-validation-problem",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "hyperform": "^0.9.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+      "start": "node_modules/.bin/webpack-dev-server"
+  }
+}
