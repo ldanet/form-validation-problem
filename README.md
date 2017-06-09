@@ -14,6 +14,23 @@ npm start
 
 The page will be visible at localhost:8080
 
+## Process
+
+* Read the problem carefully
+* Look up on the internet to refresh my memory about form validation
+* Decide to do HTML5 validation for accessibility with a polyfill for browser support
+* Set up a quick dev environment with:
+    * Babel to write ES6 without having to worry about browser support
+    * Webpack because it was the first thing I could think of to run a server with auto reload
+    * ESLint because it saves me from time wasting very silly bugs and helps me keep thing clean
+* Dive into actual coding
+
+## Known issues
+
+* The tiger type field is OK with only whitespace, I should remove whitespace at beginning and end before validating.
+* hyperform *replaces* browser HTML5 validation instead of adding it only in browsers that don't support it. I don't know how good it is for accessibility.
+* Messages are ugly.
+
 ## Problem definition
 
 Included in this repository is an [index.html](index.html) file that contains a form. You must ensure all of the following rules are met before the form is posted to the (in this case imaginary) server:
